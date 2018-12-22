@@ -197,12 +197,14 @@ var DevExpress;
                 else {
                     var parameters = {};
                     if ($model) {
+                        var viewState = {};
                         if ($model.CurrentObject) {
-                            parameters['currentObject'] = $model.CurrentObject;
+                            viewState['currentObject'] = $model.CurrentObject;
                         }
                         if ($model.PreviousObjectsState) {
-                            parameters['objectsState'] = $model.PreviousObjectsState;
+                            viewState['objectsState'] = $model.PreviousObjectsState;
                         }
+                        parameters['viewState'] = viewState;
                         if ($model.SelectedObjects) {
                             parameters['selectedObjects'] = $model.SelectedObjects;
                         }
