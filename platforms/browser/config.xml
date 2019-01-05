@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.xaf.Academia" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Academia</name>
+    <description />
+    <author email="" href="" />
+    <content src="index.html" />
+    <gap:plugin name="cordova-plugin-splashscreen" source="npm" />
+    <gap:plugin name="cordova-plugin-statusbar" source="npm" />
+    <gap:plugin name="cordova-plugin-whitelist" source="npm" />
+    <gap:plugin name="cordova-plugin-geolocation" source="npm" />
+    <gap:plugin name="cordova-plugin-camera" source="npm" />
+    <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
+    <icon gap:platform="android" gap:qualifier="ldpi" height="36" src="icons/36.png" width="36" />
+    <icon gap:platform="android" gap:qualifier="mdpi" height="48" src="icons/48.png" width="48" />
+    <icon gap:platform="android" gap:qualifier="hdpi" height="72" src="icons/72.png" width="72" />
+    <icon gap:platform="android" gap:qualifier="xhdpi" height="96" src="icons/96.png" width="96" />
+    <icon gap:platform="android" gap:qualifier="xxhdpi" height="144" src="icons/144.png" width="144" />
+    <icon gap:platform="android" gap:qualifier="xxxhdpi" height="192" src="icons/192.png" width="192" />
+    <icon gap:platform="ios" height="29" src="icons/29.png" width="29" />
+    <icon gap:platform="ios" height="40" src="icons/40.png" width="40" />
+    <icon gap:platform="ios" height="50" src="icons/50.png" width="50" />
+    <icon gap:platform="ios" height="57" src="icons/57.png" width="57" />
+    <icon gap:platform="ios" height="58" src="icons/58.png" width="58" />
+    <icon gap:platform="ios" height="60" src="icons/60.png" width="60" />
+    <icon gap:platform="ios" height="72" src="icons/72.png" width="72" />
+    <icon gap:platform="ios" height="76" src="icons/76.png" width="76" />
+    <icon gap:platform="ios" height="80" src="icons/80.png" width="80" />
+    <icon gap:platform="ios" height="87" src="icons/87.png" width="87" />
+    <icon gap:platform="ios" height="100" src="icons/100.png" width="100" />
+    <icon gap:platform="ios" height="114" src="icons/114.png" width="114" />
+    <icon gap:platform="ios" height="120" src="icons/120.png" width="120" />
+    <icon gap:platform="ios" height="144" src="icons/144.png" width="144" />
+    <icon gap:platform="ios" height="152" src="icons/152.png" width="152" />
+    <icon gap:platform="ios" height="180" src="icons/180.png" width="180" />
+    <gap:splash gap:platform="android" gap:qualifier="port-ldpi" height="320" src="splashscreens/200-320.png" width="200" />
+    <gap:splash gap:platform="android" gap:qualifier="port-mdpi" height="480" src="splashscreens/320-480.png" width="320" />
+    <gap:splash gap:platform="android" gap:qualifier="port-hdpi" height="800" src="splashscreens/480-800.png" width="480" />
+    <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" height="1280" src="splashscreens/720-1280.png" width="720" />
+    <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" height="2048" src="splashscreens/1536-2048.png" width="1536" />
+    <gap:splash gap:platform="android" gap:qualifier="port-xxhdpi" height="1600" src="splashscreens/960-1600.png" width="960" />
+    <gap:splash gap:platform="android" gap:qualifier="port-xxxhdpi" height="1920" src="splashscreens/1280-1920.png" width="1280" />
+    <gap:splash gap:platform="android" gap:qualifier="land-ldpi" height="200" src="splashscreens/320-200.png" width="320" />
+    <gap:splash gap:platform="android" gap:qualifier="land-mdpi" height="320" src="splashscreens/480-320.png" width="480" />
+    <gap:splash gap:platform="android" gap:qualifier="land-hdpi" height="480" src="splashscreens/800-480.png" width="800" />
+    <gap:splash gap:platform="android" gap:qualifier="land-xhdpi" height="720" src="splashscreens/1280-720.png" width="1280" />
+    <gap:splash gap:platform="android" gap:qualifier="land-xhdpi" height="1536" src="splashscreens/2048-1536.png" width="2048" />
+    <gap:splash gap:platform="android" gap:qualifier="land-xxhdpi" height="960" src="splashscreens/1600-960.png" width="1600" />
+    <gap:splash gap:platform="android" gap:qualifier="land-xxxhdpi" height="1280" src="splashscreens/1920-1280.png" width="1920" />
+    <gap:splash gap:platform="ios" height="480" src="splashscreens/320-480.png" width="320" />
+    <gap:splash gap:platform="ios" height="960" src="splashscreens/640-960.png" width="640" />
+    <gap:splash gap:platform="ios" height="1136" src="splashscreens/640-1136.png" width="640" />
+    <gap:splash gap:platform="ios" height="1334" src="splashscreens/750-1334.png" width="750" />
+    <gap:splash gap:platform="ios" height="1024" src="splashscreens/768-1024.png" width="768" />
+    <gap:splash gap:platform="ios" height="2208" src="splashscreens/768-1024.png" width="1242" />
+    <gap:splash gap:platform="ios" height="2048" src="splashscreens/1536-2048.png" width="1536" />
+    <gap:splash gap:platform="ios" height="2208" src="splashscreens/1242-2208.png" width="1242" />
+    <gap:splash gap:platform="ios" height="768" src="splashscreens/1024-768.png" width="1024" />
+    <gap:splash gap:platform="ios" height="640" src="splashscreens/1136-640.png" width="1136" />
+    <gap:splash gap:platform="ios" height="750" src="splashscreens/1334-750.png" width="1334" />
+    <gap:splash gap:platform="ios" height="1536" src="splashscreens/2048-1536.png" width="2048" />
+    <gap:splash gap:platform="ios" height="1242" src="splashscreens/2208-1242.png" width="2208" />
+    <gap:splash gap:platform="winphone" height="800" src="splashscreens/480-800.jpg" width="480" />
+    <access origin="*" />
+    <access origin="https://*.google.com/*" />
+    <access origin="https://*.googleapis.com/*" />
+    <allow-navigation href="https://*.google.com/*" />
+    <allow-navigation href="https://*.googleapis.com/*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <config-file overwrite="true" parent="CFBundleDisplayName" platform="ios">
+        <string>Academia</string>
+    </config-file>
+    <gap:plugin name="cordova-android-support-gradle-release" source="npm" spec="1.4.2" />
+    <config-file parent="NSCameraUsageDescription" platform="ios" target="*-Info.plist">
+        <string>Camera Access Required</string>
+    </config-file>
+    <edit-config file="*-Info.plist" mode="merge" target="NSLocationWhenInUseUsageDescription">
+        <string>Geolocation Access Required</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryUsageDescription">
+        <string>Photo Library Access Required</string>
+    </edit-config>
+    <gap:plugin name="cordova-plugin-file-opener2" source="npm" />
+    <gap:plugin name="cordova-plugin-file-transfer" source="npm" />
+    <preference name="permissions" value="none" />
+    <preference name="phonegap-version" value="cli-7.1.0" />
+    <preference name="orientation" value="default" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="StatusBarBackgroundColor" value="#000000" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="false" />
+    <preference name="auto-hide-splash-screen" value="false" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="disable-cursor" value="false" />
+    <preference name="windows-appx-target" value="uap" />
+    <preference name="windows-arch" value="anycpu" />
+    <preference name="android-minSdkVersion" value="14" />
+    <preference name="android-installLocation" value="auto" />
+    <preference name="disable-push-notifications" value="1" />
+</widget>

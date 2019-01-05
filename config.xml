@@ -166,4 +166,5 @@
   </edit-config>
   <gap:plugin name="cordova-plugin-file-opener2" source="npm" />
   <gap:plugin name="cordova-plugin-file-transfer" source="npm" />
+  <plugin name="https://github.com/srehanuddin/Cordova-Plugin-Bluetooth-Printer.git" />
 </widget>
